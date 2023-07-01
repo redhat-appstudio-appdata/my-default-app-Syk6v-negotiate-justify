@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-python-basic
     app.kubernetes.io/part-of: my-default-app
-  name: devfile-sample-python-baspjhn
+  name: devfile-sample-python-baswpgp
 spec:
   path: /
   port:
