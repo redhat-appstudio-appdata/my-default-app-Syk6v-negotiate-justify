@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: react-cards
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/my-default-app/react-cards@sha256:00421d1fb47e66a6608e4af0163f1e2c333ee9a914d7be4e5fcdda323359a036
+        name: my-nodejs
+        resources: {}
+status: {}
