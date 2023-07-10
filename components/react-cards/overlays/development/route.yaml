@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: react-cards
     app.kubernetes.io/part-of: my-default-app
-  name: react-cardsmrft
+  name: react-cardsubu4
 spec:
   path: /
   port:
