@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: my-component
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/my-default-app/my-component@sha256:5035a93b2616ebc4b850d2aa47cfc4b1699cadc61736178bcdc386c3c4c9d521
+        name: container-image
+        resources: {}
+status: {}
