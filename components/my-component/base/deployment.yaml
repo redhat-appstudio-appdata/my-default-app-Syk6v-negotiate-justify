@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: my-component
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mdsaud-tenant/my-default-app/my-component@sha256:5035a93b2616ebc4b850d2aa47cfc4b1699cadc61736178bcdc386c3c4c9d521
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/my-default-app/my-component@sha256:c7cc91f3442e5a2cb4080356d89525eb995cbfc90a48ddf8924678d647ead5ff
         imagePullPolicy: Always
         name: container-image
         ports:
